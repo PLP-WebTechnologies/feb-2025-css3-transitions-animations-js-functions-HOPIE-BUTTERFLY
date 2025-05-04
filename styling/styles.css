@@ -1,0 +1,123 @@
+body {
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer {
+    background-color: #cdb4db;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+    color: #333;
+}
+
+#sep {
+    margin-bottom: 10%;
+}
+
+#sep2{
+    margin-bottom: 20%;
+}
+
+
+.slideshow-container {
+    max-width: 600px;
+    position: relative;
+    margin: auto;
+  }
+  
+  .slide {
+    display: none;
+  }
+  
+  img {
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.3s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: rgba(0,0,0,0.5);
+  }
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  .fade {
+    animation: fade 1.5s ease-in-out;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  nav {
+     text-decoration: none;
+     margin-bottom: 5%;
+     width: 100%;
+     text-align: center;
+     color: #8e4585;
+     font-size: medium;
+     
+  }
+  
+h1 , h2 ,h3{
+    color: #8e4585;
+    margin-top: 20px;
+    text-align: center;
+}
+
+  .nkey {
+    text-decoration: none;
+  }
+
+  .nkey:hover{
+    font-weight: bolder;
+    color: #8e4585;
+  }
+  
+  main {
+    color: #333333;
+  }
+
+  .links{
+    text-decoration: none;
+    color: #333333;
+  }
+
+  .links:hover{
+    color: #a2d2ff;
+    font-weight: bold;
+  }
+  
+  .links:active{
+    color: #8e4585;
+    font-weight: bolder;
+  }
+
+  .button:hover{
+    color:purple;
+    font-weight: bold;
+  }
+
+  .button:active{
+    font-weight: bolder;
+    
+  }
