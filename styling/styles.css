@@ -93,13 +93,10 @@ h1 , h2 ,h3{
     color: #8e4585;
   }
   
-  main {
-    color: #333333;
-  }
 
-  .links{
+  .links {
     text-decoration: none;
-    color: #333333;
+    color: #8e4585;
   }
 
   .links:hover{
@@ -120,4 +117,34 @@ h1 , h2 ,h3{
   .button:active{
     font-weight: bolder;
     
+  }
+
+  body.light {
+    background-color: #ffffff;
+    color: #333333;
+  }
+
+  body.dark {
+    background-color: #1e1e1e;
+    color: #8e4585;
+
+  }
+
+  .links.dark {
+    text-decoration: none;
+    color: #8e4585;
+  }
+
+
+  #box {
+    width: 200px;
+    height: 200px;
+    background-color: coral;
+    margin-top: 20px;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+
+  #box.show {
+    opacity: 1;
   }

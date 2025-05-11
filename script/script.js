@@ -16,3 +16,18 @@ function showSlides(n) {
 
   slides[slideIndex - 1].style.display = "block";
 }
+
+function setTheme(theme) {
+    localStorage.setItem('preferredTheme', theme);
+    document.body.className = theme;
+  }
+
+  // Retrieve theme on page load
+  window.onload = () => {
+    const savedTheme = localStorage.getItem('preferredTheme');
+    if (savedTheme) {
+      document.body.className = savedTheme;
+    }
+  };
+
+  
